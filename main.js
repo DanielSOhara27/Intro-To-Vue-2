@@ -9,7 +9,10 @@ var app = new Vue({
     * by setting '``#app``' as the element ( el ) that our instance is plugged into.
     * */
     data: {
-        product: 'Colorful Socks'
+        product: 'Colorful Socks',
+        description: 'Colorful socks in all shapes and sizes',
+        image: './assets/images/socks_blue.jpg',
+        url: 'https://google.com'
     }
 })
 
